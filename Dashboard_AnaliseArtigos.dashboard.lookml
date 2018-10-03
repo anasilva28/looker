@@ -15,8 +15,9 @@
         pivots: [inventory_items.product_category]
         fill_fields: [order_items.created_year]
         filters:
-          inventory_items.product_category: Accessories,Jeans,Shorts,Sweater
-        sorts: [order_items.created_year, inventory_items.product_category 0]
+          inventory_items.product_category: Accessories,Jeans,Shorts,Sweaters
+        #sorts: [order_items.created_year, inventory_items.product_category 0]
+        sorts: [order_items.created_year 0]
         limit: 5
         column_limit: 50
         query_timezone: America/Los_Angeles
