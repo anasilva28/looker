@@ -5,9 +5,9 @@ label: "Projecto Vendas"
 include: "*.view"
 
 ##include dashboard
-##include: "*.dashboard.lookml"
-include: "Dashboard_Teste.dashboard.lookml"
-include: "DashboardEstadoEncomendas.dashboard.lookml"
+include: "*.dashboard.lookml"
+##include: "Dashboard_Teste.dashboard.lookml"
+##include: "DashboardEstadoEncomendas.dashboard.lookml"
 
 
 datagroup: anaritasilva_proj3_default_datagroup {

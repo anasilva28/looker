@@ -1,7 +1,7 @@
 - dashboard: dashboardvalorretornado
   title: Dashboardvalorretornado
   layout: tile
-  tile_size: 100
+  tile_size: 200
 
   filters:
     - name: Data da Encomenda
