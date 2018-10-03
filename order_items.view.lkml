@@ -242,7 +242,7 @@ view: order_items {
   measure: media_gasto_por_user {
     type: number
     value_format_name: usd
-    sql: 1.0 * ${total_sale_price} / NULLIF(${users.count},0) ;; ##vai buscar o nr de utilizadores à view users
+    sql: 1.0 * ${total_sale_price} / NULLIF(${users.count},0) ;; ##vai buscar o nr de utilizadores
     drill_fields: [detail*]
   }
 
