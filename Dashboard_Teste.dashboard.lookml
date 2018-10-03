@@ -1,7 +1,7 @@
 - dashboard: Dashboard_Teste
   title: Dashboard Teste
   layout: tile
-  tile_size: 80
+  tile_size: 100
   elements:
   - title: Valor retornado em artigos devolvidos
     name: Valor retornado em artigos devolvidos

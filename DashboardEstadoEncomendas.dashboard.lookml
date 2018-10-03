@@ -1,7 +1,7 @@
 - dashboard: DashboardEstadoEncomendas
   title: Dashboard Teste
   layout: tile
-  tile_size: 80
+  tile_size: 100
   elements:
   - title: Estado das Encomendas
     name: Estado das Encomendas
