@@ -92,4 +92,16 @@ view: users {
   dimension: nome_completo {
     sql: ${first_name}||' '||${last_name} ;;
   }
+
+  dimension: state_user {
+    type: string
+    sql: ${TABLE}.state ;;
+    map_layer_name: us_states
+  }
+
+  dimension: location {
+    type: location
+    sql_latitude: ${latitude} ;;
+    sql_longitude: ${longitude} ;;
+  }
 }
