@@ -17,6 +17,8 @@ persist_with: anaritasilva_proj3_default_datagroup
 
 ##experiencia
 
+explore: inventory_items {}
+
 explore: order_items {
   label: "(1) Orders, Items, Inventory and Users"
   join: users {
