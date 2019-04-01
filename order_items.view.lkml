@@ -136,7 +136,18 @@ view: order_items {
       field: artigo_retornado
       value: "yes"
     }
-  }
+}
+  ##valor total retornado
+  measure: choquiqui {
+      type:  sum
+      value_format_name: usd
+      sql: ${sale_price} ;;
+      filters: {
+        field: artigo_retornado
+        value: "yes"
+      }
+
+     }
 
   measure: taxa_retornados {
     type: number
