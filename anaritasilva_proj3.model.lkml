@@ -20,7 +20,7 @@ persist_with: anaritasilva_proj3_default_datagroup
 explore: inventory_items {}
 
 explore: order_items {
-  label: "(1) Orders, Items, Inventory and Users"
+  label: "(1) Orders, Items, Inventory and Users 1"
   join: users {
     type: left_outer
     sql_on: ${order_items.user_id} = ${users.id} ;;
